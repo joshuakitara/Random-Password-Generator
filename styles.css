@@ -30,13 +30,13 @@ body {
 }
 
 p,
-.btn,
+button,
 #one,
 #two {
     font-size: 18px;
 }
 
-.btn {
+button {
     background: #4ADF86;
     color: #1F2937;
     padding: 10px 10px;

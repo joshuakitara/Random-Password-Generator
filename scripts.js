@@ -15,6 +15,9 @@ const cbSymbol = document.querySelector("#symbols");
 let fieldOne = document.getElementById("one");
 let fieldTwo = document.getElementById("two");
 
+// Event listener
+document.getElementById("generate-btn").addEventListener("click", generatePassword())
+
 // Onclick function for "Generate Password" button, generating password from selected characters
 function generatePassword() {
     let characters = [];
